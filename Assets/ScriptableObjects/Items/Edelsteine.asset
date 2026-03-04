@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30344452f45122149be7ab00dbee6427, type: 3}
-  m_Name: Rot
+  m_Name: Edelsteine
   m_EditorClassIdentifier: 
   Id: 1
-  DisplayName: Rot
-  Icon: {fileID: 21300000, guid: 338fbb3dccf039942bf569605a759b30, type: 3}
+  DisplayName: Edelsteine
+  Icon: {fileID: -6508908407416351038, guid: 93500fb32f7e0d342bc294c9d008f190, type: 3}
   MaxStack: 99
   producer: {fileID: 0}
   tier: 1

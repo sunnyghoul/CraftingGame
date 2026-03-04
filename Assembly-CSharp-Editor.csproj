@@ -1326,11 +1326,13 @@
     <ProjectReference Include="Unity.2D.Common.Editor.csproj" />
     <ProjectReference Include="Unity.Burst.csproj" />
     <ProjectReference Include="Unity.Timeline.csproj" />
+    <ProjectReference Include="TMPEffectEditor.csproj" />
     <ProjectReference Include="Unity.2D.Tooling.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj" />
     <ProjectReference Include="Unity.InternalAPIEngineBridge.004.csproj" />
     <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
+    <ProjectReference Include="TMPEffectRuntime.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
     <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj" />
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />

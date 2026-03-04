@@ -22,7 +22,7 @@ public class TopBarUI : MonoBehaviour
     public List<ResourceSlot> resourceSlots = new(); // size 3, assign defs/icons/labels
 
     [Header("Calendar UI")]
-    public Image seasonDot;              // colored dot (optional)
+    public Image seasonIcon;             // optional icon that should change per season
     public TextMeshProUGUI seasonLabel;  // "Spring"
     public TextMeshProUGUI dayLabel;     // "Day 7 / 28 (Y1)"
     public Image dayProgressFill;        // Image with FillMethod=Horizontal
@@ -69,6 +69,12 @@ public class TopBarUI : MonoBehaviour
         HookProgress(true);
         RefreshCalendarUI(forceAll:true);
         RefreshXPUI();
+
+        // warn if seasonIcon reference is missing but calendar has icons configured
+        if (seasonIcon == null && calendar != null && calendar.seasonIcons != null && calendar.seasonIcons.Length > 0)
+        {
+            Debug.LogWarning("TopBarUI: seasonIcon Image field is not assigned. Season icon updates will be skipped.", this);
+        }
     }
 
     void OnDisable()
@@ -245,7 +251,23 @@ public class TopBarUI : MonoBehaviour
             else if (seasonUppercase == "lower") sName = sName.ToLowerInvariant();
 
             if (seasonLabel) seasonLabel.text = sName;
-            if (seasonDot)   seasonDot.color  = calendar.CurrentSeasonColor;
+            // seasonDot removed; coloring handled by the seasonIcon sprite
+            if (seasonIcon)
+            {
+                // if the calendar has an icon for the current season, apply it
+                // otherwise retain whatever sprite was already set on the image
+                var icon = calendar.CurrentSeasonIcon;
+                // debug log helps diagnose why the sprite isn't changing
+                Debug.Log($"TopBarUI.RefreshCalendarUI: season index={calendar.SeasonIndex}, icon={(icon!=null?icon.name:"<null>")}", seasonIcon);
+                if (icon != null)
+                {
+                    seasonIcon.sprite = icon;
+                }
+                // if you want the slot to clear when no icon is assigned, uncomment:
+                // else seasonIcon.sprite = null;
+                // optionally toggle visibility based on whether we have a sprite:
+                // seasonIcon.enabled = seasonIcon.sprite != null;
+            }
         }
 
         if (dayChanged || yearChanged || forceAll)

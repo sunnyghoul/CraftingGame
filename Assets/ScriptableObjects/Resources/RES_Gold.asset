@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
   m_Name: RES_Gold
   m_EditorClassIdentifier: 
-  id: gold
-  icon: {fileID: 21300000, guid: 047413e491b89f947a3f0518d700ef78, type: 3}
-  displayName: Gold
+  id: Warp
+  icon: {fileID: 3301238525455117042, guid: dcf7a9732526d4943aec2cc887c14224, type: 3}
+  displayName: Warp
   maxStack: 99
-  description: Gold. The more the better.
+  description: Warp. The more the better.

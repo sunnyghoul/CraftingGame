@@ -14,6 +14,9 @@ public class GameCalendar : MonoBehaviour
         new Color(1f,0.6f,0.3f),
         new Color(0.8f,0.9f,1f)
     };
+    
+    // optional artwork for each season, used by UI if assigned
+    public Sprite[] seasonIcons = new Sprite[0];
 
     [Header("Start State")]
     public int startYear = 1;
@@ -42,6 +45,17 @@ public class GameCalendar : MonoBehaviour
         SeasonIndex = Mathf.Clamp(startSeasonIndex, 0, Mathf.Max(0, seasonsPerYear - 1));
         DayInSeason = Mathf.Clamp(startDayInSeason, 1, daysPerSeason);
         dayProgress01 = 0f;
+    }
+
+    void OnValidate()
+    {
+        // keep the seasonIcons array in sync with the number of seasons
+        if (seasonIcons == null)
+            seasonIcons = new Sprite[seasonsPerYear];
+        else if (seasonIcons.Length != seasonsPerYear)
+        {
+            Array.Resize(ref seasonIcons, seasonsPerYear);
+        }
     }
 
     void Update()
@@ -90,4 +104,20 @@ public class GameCalendar : MonoBehaviour
         (seasonColors != null && seasonColors.Length > 0)
             ? seasonColors[Mathf.Clamp(SeasonIndex, 0, seasonColors.Length - 1)]
             : Color.white;
+
+    /// <summary>
+    /// Returns the sprite assigned for the current season index, or null if none
+    /// </summary>
+    public Sprite CurrentSeasonIcon
+    {
+        get
+        {
+            if (seasonIcons != null && seasonIcons.Length > 0)
+            {
+                int idx = Mathf.Clamp(SeasonIndex, 0, seasonIcons.Length - 1);
+                return seasonIcons[idx];
+            }
+            return null;
+        }
+    }
 }
