@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
-  m_Name: RES_Population
+  m_Name: RES_Dollars
   m_EditorClassIdentifier: 
-  id: friends
-  icon: {fileID: -2554768595615315461, guid: efccf4f91461006469bbf92d4bd5e517, type: 3}
-  displayName: Friends
+  id: dollars
+  icon: {fileID: 2112439727279425765, guid: 7dff312b6105c124da536618a4e1b9ae, type: 3}
+  displayName: dollars
   maxStack: 99
-  description: Your Actor slots
+  description: Dollars. Try not to be broke.

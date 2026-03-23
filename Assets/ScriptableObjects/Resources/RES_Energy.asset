@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
-  m_Name: RES_Gold
+  m_Name: RES_Energy
   m_EditorClassIdentifier: 
-  id: Warp
-  icon: {fileID: 3301238525455117042, guid: dcf7a9732526d4943aec2cc887c14224, type: 3}
-  displayName: Warp
+  id: energy
+  icon: {fileID: 1182151599383408799, guid: 6bf1743431c8b794d8d04a1797da6f53, type: 3}
+  displayName: vocal energy
   maxStack: 99
-  description: Warp. The more the better.
+  description: Vocal Energy is needed to motivate your club members.
