@@ -15,7 +15,7 @@ MonoBehaviour:
   id: ryan
   displayName: Ryan
   role: {fileID: 11400000, guid: 2e635c56c4f83e4439c9181453ab1e17, type: 2}
-  portraitOverride: {fileID: 0}
+  portraitOverride: {fileID: -4466085577144658234, guid: 27902003902388e49b811dfbf2250b7b, type: 3}
   spiritPerDay: 1
   hireGoldCost: 0
   happiness: 0.096
