@@ -10,46 +10,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d75e06c2391548c5ab5d457b3bb03cd2, type: 3}
-  m_Name: Actor_Ryan
+  m_Name: Actor_Violet
   m_EditorClassIdentifier: 
-  id: ryan
-  displayName: Ryan
-  role: {fileID: 11400000, guid: 2e635c56c4f83e4439c9181453ab1e17, type: 2}
-  portraitOverride: {fileID: -4466085577144658234, guid: 27902003902388e49b811dfbf2250b7b, type: 3}
-  spiritPerDay: 1
-  hireGoldCost: 0
-  happiness: 0.096
-  clumsiness: 0.934
+  id: violet
+  displayName: Violet
+  role: {fileID: 11400000, guid: 4b1796ef023a6a24085785542b9ea38d, type: 2}
+  portraitOverride: {fileID: 8125735952103101439, guid: fef9a99986e8fc649a1eb93626918580, type: 3}
+  spiritPerDay: 5
+  hireGoldCost: 100
+  happiness: 0.538
+  clumsiness: 0.115
   happinessThoughts:
-  - Life can be fun
+  - "I\xB4m the best dancer"
   clumsyThoughts:
-  - Life sucks
+  - "I\xB4m not on beat"
   idleThoughtIntervalMinSeconds: 17
   idleThoughtIntervalMaxSeconds: 35
   happyIdleThoughts:
-  - I love music
+  - Today is a good day
   clumsyIdleThoughts:
-  - Sung too much. My throat hurts
+  - Where did I put my cheerleader uniform
   happyTravelThoughts:
-  - "I\xB4ll get something nice"
+  - Finally away from those losers
   happyForageThoughts:
-  - 'Oh look! '
+  - This is useful
   happySellThoughts:
-  - Money is great
-  happyResearchThoughts: []
+  - money, money, money
+  happyResearchThoughts:
+  - With music research is much more fun
   happyCraftThoughts:
-  - Crafting is one of my many talents
+  - "I\xB4m so good at this"
   happyTavernThoughts:
-  - Practice has paid off
+  - This is where I belong
   clumsyTravelThoughts:
-  - Fell down the stairs
+  - I forgot my phone
   clumsyForageThoughts:
-  - I feel like someone is watching me
+  - Useless
   clumsySellThoughts:
-  - Did I get ripped off???
+  - Not enough money
   clumsyResearchThoughts:
-  - "I can\xB4t find anyhing useful"
+  - Nothing good here
   clumsyCraftThoughts:
-  - What did the recipe say again?
+  - Why do I have to do this
   clumsyTavernThoughts:
-  - "Don\xB4t fall, don\xB4t fall"
+  - Where is my outfit?

@@ -10,46 +10,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d75e06c2391548c5ab5d457b3bb03cd2, type: 3}
-  m_Name: Actor_Ryan
+  m_Name: Actor_Douglas
   m_EditorClassIdentifier: 
-  id: ryan
-  displayName: Ryan
-  role: {fileID: 11400000, guid: 2e635c56c4f83e4439c9181453ab1e17, type: 2}
-  portraitOverride: {fileID: -4466085577144658234, guid: 27902003902388e49b811dfbf2250b7b, type: 3}
-  spiritPerDay: 1
-  hireGoldCost: 0
-  happiness: 0.096
-  clumsiness: 0.934
+  id: douglas
+  displayName: Douglas
+  role: {fileID: 11400000, guid: 4b1796ef023a6a24085785542b9ea38d, type: 2}
+  portraitOverride: {fileID: 4505180617543242406, guid: 096858a152781a445aab286a2f4ad46f, type: 3}
+  spiritPerDay: 3
+  hireGoldCost: 100
+  happiness: 0.5
+  clumsiness: 0.2
   happinessThoughts:
-  - Life can be fun
-  clumsyThoughts:
-  - Life sucks
+  - Great day for practice
+  clumsyThoughts: []
   idleThoughtIntervalMinSeconds: 17
   idleThoughtIntervalMaxSeconds: 35
   happyIdleThoughts:
-  - I love music
+  - All eyes are on me
   clumsyIdleThoughts:
-  - Sung too much. My throat hurts
+  - "Don\xB4t mess up"
   happyTravelThoughts:
-  - "I\xB4ll get something nice"
+  - Lalala
   happyForageThoughts:
-  - 'Oh look! '
+  - Found something useful for once
   happySellThoughts:
-  - Money is great
-  happyResearchThoughts: []
+  - 'Now I can afford a new outfit '
+  happyResearchThoughts:
+  - I love this place
   happyCraftThoughts:
-  - Crafting is one of my many talents
+  - "I\xB4m amazing at this"
   happyTavernThoughts:
-  - Practice has paid off
+  - The stage is my home
   clumsyTravelThoughts:
-  - Fell down the stairs
+  - Where did I want to go again?
   clumsyForageThoughts:
-  - I feel like someone is watching me
+  - Embarrassed myself
   clumsySellThoughts:
-  - Did I get ripped off???
+  - Did I lose money?
   clumsyResearchThoughts:
-  - "I can\xB4t find anyhing useful"
+  - What am I doing?
   clumsyCraftThoughts:
-  - What did the recipe say again?
+  - "That doesn\xB4t look right"
   clumsyTavernThoughts:
-  - "Don\xB4t fall, don\xB4t fall"
+  - Why is the floor so slippery?

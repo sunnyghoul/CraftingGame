@@ -10,46 +10,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d75e06c2391548c5ab5d457b3bb03cd2, type: 3}
-  m_Name: Actor_Ryan
+  m_Name: Actor_Chloe
   m_EditorClassIdentifier: 
-  id: ryan
-  displayName: Ryan
+  id: chloe
+  displayName: Chloe
   role: {fileID: 11400000, guid: 2e635c56c4f83e4439c9181453ab1e17, type: 2}
-  portraitOverride: {fileID: -4466085577144658234, guid: 27902003902388e49b811dfbf2250b7b, type: 3}
-  spiritPerDay: 1
-  hireGoldCost: 0
-  happiness: 0.096
-  clumsiness: 0.934
+  portraitOverride: {fileID: -3044445352813601144, guid: 82710e03bd715584c922b882c7fc76a6, type: 3}
+  spiritPerDay: 5
+  hireGoldCost: 100
+  happiness: 0.315
+  clumsiness: 0.72
   happinessThoughts:
-  - Life can be fun
+  - "I\xB4ll get the solo!"
+  - Singing is the best thing in the world
   clumsyThoughts:
-  - Life sucks
+  - Stop dropping things
+  - Almost fell there
   idleThoughtIntervalMinSeconds: 17
   idleThoughtIntervalMaxSeconds: 35
   happyIdleThoughts:
-  - I love music
+  - Today is a good day
   clumsyIdleThoughts:
-  - Sung too much. My throat hurts
+  - Fell but stood up again
   happyTravelThoughts:
-  - "I\xB4ll get something nice"
+  - Singing to pass time.
   happyForageThoughts:
-  - 'Oh look! '
+  - 'Need more of those pills. '
   happySellThoughts:
-  - Money is great
-  happyResearchThoughts: []
+  - "Soon I\xB4m rich"
+  happyResearchThoughts:
+  - With music research is much more fun
   happyCraftThoughts:
-  - Crafting is one of my many talents
+  - A little bit of this, a little bit of that
   happyTavernThoughts:
-  - Practice has paid off
+  - This is where I belong
   clumsyTravelThoughts:
-  - Fell down the stairs
+  - Almost got lost
   clumsyForageThoughts:
-  - I feel like someone is watching me
+  - Hit my head, ouch
   clumsySellThoughts:
-  - Did I get ripped off???
+  - Is there a hole in my pocket or where did all my money go?
   clumsyResearchThoughts:
-  - "I can\xB4t find anyhing useful"
+  - Embarrassed myself in front of the bullies
   clumsyCraftThoughts:
-  - What did the recipe say again?
+  - Accidently cut my finger
   clumsyTavernThoughts:
-  - "Don\xB4t fall, don\xB4t fall"
+  - Tripped onstage
