@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e829c63db504d76bd6c4ae6ed27f3c8, type: 3}
+  m_Name: Area_Auditorium 1
+  m_EditorClassIdentifier: 
+  id: forageauditorium
+  displayName: Auditorium
+  travelDays: 0.2
+  workDays: 1
+  roundTrip: 1
+  seasonYieldMul:
+  - 1
+  - 1
+  - 1
+  - 1
+  drops:
+  - item: {fileID: 11400000, guid: c1dedf9eaf5b8194f85ac4f65c2f3c76, type: 2}
+    min: 1
+    max: 4
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 52f46527fecb9ec4ca120fc62d125fc1, type: 2}
+    min: 1
+    max: 2
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 6f95bf8bf66f36847bc7f347f0845646, type: 2}
+    min: 1
+    max: 1
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 6174febf5b5728d4e9518bce68f26d01, type: 2}
+    min: 1
+    max: 1
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 8b1e6411273557f4788a1c850e311df5, type: 2}
+    min: 1
+    max: 1
+    dropChance: 0

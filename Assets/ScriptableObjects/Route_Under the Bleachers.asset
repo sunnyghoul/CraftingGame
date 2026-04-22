@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d161cd3382484cb9af43319f8d68695f, type: 3}
-  m_Name: Route_Sell1
+  m_Name: Route_Under the Bleachers
   m_EditorClassIdentifier: 
-  id: sellroute1
-  displayName: Sell at Castle
+  id: bleachers
+  displayName: Under the Bleachers
   travelDays: 0.5
-  marketDays: 0.1
+  marketDays: 0.5
   roundTrip: 1
   prices:
   - tier: 1
     multiplier: 2
   - tier: 2
-    multiplier: 2
+    multiplier: 3
   - tier: 3
-    multiplier: 2
+    multiplier: 4
   defaultMultiplier: 1
-  defaultPrice: 1
+  defaultPrice: 5

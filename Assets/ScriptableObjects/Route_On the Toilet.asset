@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d161cd3382484cb9af43319f8d68695f, type: 3}
-  m_Name: Route_HiddenMarket
+  m_Name: Route_On the Toilet
   m_EditorClassIdentifier: 
-  id: hm
-  displayName: Hidden Market in the Woods
-  travelDays: 0.7
-  marketDays: 0.7
+  id: toilet
+  displayName: Secretly on the toilet
+  travelDays: 0.3
+  marketDays: 0.1
   roundTrip: 1
   prices:
   - tier: 1
     multiplier: 2
   - tier: 2
-    multiplier: 3
+    multiplier: 2
   - tier: 3
-    multiplier: 4
+    multiplier: 2
   defaultMultiplier: 1
-  defaultPrice: 5
+  defaultPrice: 1

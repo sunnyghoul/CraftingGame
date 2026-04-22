@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09ce18267a5c46c58c36fbab0d332794, type: 3}
-  m_Name: Research_Lake
+  m_Name: Research_Auditorium
   m_EditorClassIdentifier: 
-  id: researchlake
-  displayName: Lake
+  id: researchauditorium
+  displayName: Auditorium
   days: 0.5
   possibleRecipes:
-  - {fileID: 11400000, guid: 4399641ae8c1ac94c828c2add32f8b95, type: 2}
-  recipeChance: 0.954
+  - {fileID: 11400000, guid: 762c9c745c4b9a744bc8b39a2c66de1b, type: 2}
+  - {fileID: 11400000, guid: 52337d97eaa0fd44491fbdad771d15f1, type: 2}
+  recipeChance: 0.923
   possibleSpiritGenerators:
-  - {fileID: 11400000, guid: 9e3a59137428ae94a8c0717215c3dc46, type: 2}
-  spiritGenChance: 0.397
+  - {fileID: 11400000, guid: 0fa53bf50dc6c7c4cb7a3faa2b8cb79a, type: 2}
+  spiritGenChance: 0.839

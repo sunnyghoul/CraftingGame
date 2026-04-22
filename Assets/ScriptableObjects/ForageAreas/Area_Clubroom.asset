@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e829c63db504d76bd6c4ae6ed27f3c8, type: 3}
-  m_Name: Area_Lake
+  m_Name: Area_Clubroom
   m_EditorClassIdentifier: 
-  id: foragelake
-  displayName: Lake
+  id: forageclubroom
+  displayName: Clubroom
   travelDays: 0.1
   workDays: 1
   roundTrip: 1
@@ -23,11 +23,19 @@ MonoBehaviour:
   - 1
   - 1
   drops:
-  - item: {fileID: 11400000, guid: 3213f67e22796ff4e9f97a3a0b32ef5f, type: 2}
+  - item: {fileID: 11400000, guid: 46bb03ce19fafe447857fb8e0ef8f161, type: 2}
     min: 1
-    max: 2
+    max: 1
     dropChance: 0
-  - item: {fileID: 11400000, guid: f68c9d3a687f6dc4f965428a814273a9, type: 2}
+  - item: {fileID: 11400000, guid: 435995bef8e13ee4e8cdaf2757609646, type: 2}
+    min: 1
+    max: 1
+    dropChance: 0
+  - item: {fileID: 11400000, guid: c1dedf9eaf5b8194f85ac4f65c2f3c76, type: 2}
+    min: 1
+    max: 3
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 52f46527fecb9ec4ca120fc62d125fc1, type: 2}
     min: 1
     max: 2
     dropChance: 0
